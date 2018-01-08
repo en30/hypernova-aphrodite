@@ -4,7 +4,7 @@
   "description": "Aphrodite bindings for Hypernova",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "clean": "rimraf lib coverage",
     "prebuild": "npm run clean",
     "build": "babel src -d lib",
